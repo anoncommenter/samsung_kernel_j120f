@@ -1,0 +1,15 @@
+J120F Kernels Source
+
+Repository contain folder arm-eabi-4.8 - Compiler for kernel source.
+
+Getting Started
+(run terminal)
+In terminal:
+# mkdir j120f
+# cd j120f
+# git clone https://github.com/joenka/samsung_kernel_j120f
+# cd samsung_kernel_j120f
+Build zImage:
+# make arch=arm CROSS_COMPILE=~/j120f/samsung_kernel_j120f/arm-eabi-4.8/bin/arm-eabi- -j32
+
+
