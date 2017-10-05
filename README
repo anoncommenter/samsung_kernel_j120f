@@ -10,6 +10,7 @@ In terminal:
 # git clone https://github.com/joenka/samsung_kernel_j120f
 # cd samsung_kernel_j120f
 Build zImage:
+# make j1xlte_02_defconfig
 # make arch=arm CROSS_COMPILE=~/j120f/samsung_kernel_j120f/arm-eabi-4.8/bin/arm-eabi- -j32
 
 
